@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latihan Pertama</title>
+</head>
+<body background="kucing.webp">
+    <h1>Latihan Pertama</h1>
+    <p>Sebuah gambar dari folder loka : 
+        <img src="download.jpeg" width="144"  height="50" align="bottom"><br><p>
+    <p>Sebuah gambar dari subfolder : 
+        <img src="img/download.jpeg" width="144"  height="50" align="middle"><br></p>
+    <p>Sebuah gambar dari luar folder : 
+        <img src="../aldy/img/download.jpeg" width="144"  height="50" align="top"><br></p>
+    <p><img src="download.jpeg" width="144" height="50">
+        sebuah gambar di depan text</p>
+    <p>sebuah gambar di belakang text<img src="download.jpeg" width="144" height="50"></p><br><br>
+
+    <form >
+        <fieldset>
+            <legend>Formulir</legend>
+            <p>
+                <label>Nama Depan : </label>
+                <input type="text" name="depan" placeholder="Nama Depan...">
+            </p>
+            <p>
+                <label >Nama Belakang : </label>
+                <input type="text" name="belakang" placeholder="Nama Belakang...">
+            </p>
+            <p>
+                <label>Password : </label>
+                <input type="password" name="password" placeholder="isi password...">
+            </p>
+        </fieldset>
+    </form><br><br>
+
+
+    <form>
+        <fieldset>
+            <legend>Formulir</legend>
+                <p>
+                    <label>Jenis kelamin</label><br>
+                    <select name="jk">
+                        <option value="lakilaki">Laki-Laki</option>
+                        <option value="perempuan">Perempuan</option>
+                    </select>
+                </p>
+        </fieldset>
+    </form><br><br><br>
+
+
+    <form>
+        <fieldset>
+            <legend>Formulir</legend>
+
+            <!--Select Option-->
+            <p>Menggunakan Dropdown</p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <select name="jk">
+                    <option value="lakilaki">Laki-Laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </p>
+            <!--Radio Bottom-->
+            <p>Menggunakan Radio Buttom</p>
+            <p>Jenis Kelamin</p>
+            <P><input type="radio" name="jenis_kelamin" value="lakilaki"/>Laki-Laki</P>
+            <p><input type="radio" name="jenis_kelamin" value="perempuan" checked="checked">Perempuan</p>
+
+            <!--Menggunakan Checkbox-->
+            <p>Menggunakan Checkbox</p>
+            <p>Jenis kelamin</p>
+            <p><input type="checkbox" name="jenis_kelamin" value="lakilaki" checked="checked">Laki-Laki</p>
+            <p><input type="checkbox" name="jenis_kelamin" value="perempuan">Perempuan</p>
+        </fieldset>
+    </form><br><br><br>
+
+
+    <form action="index.html" method="get">
+        <fieldset>
+            <legend>Formulir</legend>
+            <p>
+                <label>Nama Depan : </label>
+                <input type="text" name="Depan" placeholder="Nama Depan...">
+            </p>
+            <p>
+                <label>Nama Belakang : </label>
+                <input type="text" name="Belakang" placeholder="Nama Belakang...">
+            </p>
+            <p>
+                <label>Password</label>
+                <input type="password" name="Password" placeholder="Isi Password...">
+            </p>
+            <input type="submit" value="SUBMIT"> <input type="reset" value="BATAL">
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
